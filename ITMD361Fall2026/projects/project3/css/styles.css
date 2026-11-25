@@ -109,3 +109,44 @@ body {
 ul {
   max-width: 900px;
 }
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 85%;
+    max-width: 1200px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    max-width: 45%;
+  }
+
+  video {
+    width: 65%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    width: 95%;
+  }
+
+  nav a {
+    padding: 1.25rem 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  img {
+    max-width: 60%;
+  }
+}
