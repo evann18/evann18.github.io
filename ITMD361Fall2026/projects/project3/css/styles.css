@@ -150,3 +150,31 @@ ul {
     max-width: 60%;
   }
 }
+
+#map {
+  width: 100%;
+  height: 500px;
+  margin: 2rem auto;
+  border: 3px solid #003366;
+  border-radius: 8px;
+}
+
+#questions-container {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+#questionBtn {
+  background-color: #003366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#questionBtn:hover {
+  background-color: #88b0d8;
+  color: #000000;
+}
